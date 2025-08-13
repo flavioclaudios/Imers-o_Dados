@@ -6,7 +6,6 @@ import time
 from scipy.stats import gaussian_kde
 import numpy as np
 
-
 # --- Configuração da Página ---
 # Define o título da página, o ícone e o layout para ocupar a largura inteira.
 st.set_page_config(
@@ -419,3 +418,4 @@ with col_graf8:
 # --- Tabela de Dados Detalhados ---
 st.subheader("Dados Detalhados")
 st.dataframe(df_filtrado)
+
